@@ -1,0 +1,38 @@
+<div class="col-md-6 offset-md-3 mt-5">
+
+  <div class="card">
+    <h4 class="card-header">Transaction</h4>
+    <div class="card-body">
+      
+      <div *ngIf="error" class="alert alert-danger mt-3 mb-0">{{error}}</div>
+      <div *ngIf="sucess" class="alert alert-success mt-3 mb-0">{{sucess}}</div>
+
+
+      <form [formGroup]="form" (ngSubmit)="onSubmit()">
+
+
+        <label>
+          From Account number :
+          {{currentUser.account.AccNo }}
+        </label>
+
+
+        <label>
+          toAccountnumber
+          <input type="number" formControlName="toaccno" class="form-control" placeholder="Recipient Account number">
+        </label>
+        <label>
+          Ammount
+          <input type="number" formControlName="ammount" class="form-control" placeholder="Enter Ammount">
+        </label><br>
+        <button [disabled]="loading" class="btn btn-primary">
+          <span *ngIf="loading" class="spinner-border spinner-border-sm mr-1"></span>
+          Transfer
+        </button>
+
+      </form>
+      <br>
+      <button class="btn btn-primary btn-sm" (click)="goback()">BacktoHome</button>
+
+    </div>
+  </div>

@@ -1,0 +1,78 @@
+<div class="col-md-6 offset-md-3 mt-5">
+
+    <div class="alert alert-danger">
+        Please run db.json in the project structure by: <strong>json-server --watch db.json --port=3000</strong>
+
+        then proceed for Excution steps
+
+    </div>
+
+
+
+    <div class="alert alert-info">
+
+<strong>AdminUser Credentials</strong>
+<br/>
+        Username: admin@gmail.com<br/>
+        Password: admin
+<p>New user cannot able to login unless the admin provide the Access </p>
+
+    </div>
+    <div class="alert alert-primary">
+
+        <strong>NormalUser Credentials</strong>
+        <br/>
+                Username: usera@gmail.com<br/>
+                Password: usera<br><br>
+                Username: sai@gmail.com<br/>
+                Password: sai
+                <br><br>
+             check jsonfor more users <a href="http://localhost:3000/users/"><strong>usersLink</strong></a>
+             check jsonfor more users <a href="http://localhost:3000/transactions"><strong>TransactionsLink</strong></a>   
+
+            </div>
+          
+        
+
+    <div class="card">
+        <h4 class="card-header">login</h4>
+        <div class="card-body">
+            <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" formControlName="username" class="form-control"
+                        [ngClass]="{ 'is-invalid': submitted && f.username.errors }" />
+                    <div *ngIf="submitted && f.username.errors" class="invalid-feedback">
+                        <div *ngIf="f.username.errors.required">Username is required</div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" formControlName="password" class="form-control"
+                        [ngClass]="{ 'is-invalid': submitted && f.password.errors }" />
+                    <div *ngIf="submitted && f.password.errors" class="invalid-feedback">
+                        <div *ngIf="f.password.errors.required">Password is required</div>
+                    </div>
+                </div>
+                <button [disabled]="loading" class="btn btn-primary">
+                    <span *ngIf="loading" class="spinner-border spinner-border-sm mr-1"></span>
+                    Login
+                </button>
+
+                <div *ngIf="error" class="alert alert-danger mt-3 mb-0">{{error}}</div>
+            </form>
+            <br>
+            <span style="color:brown;"><button type="submit" class="btn btn-outline-info btn-sm"
+                    (click)="toRegister()"><strong>create a new Account</strong> </button></span>
+
+            <!--  <add-account></add-account> -->
+        </div>
+    </div>
+    <div class="alert alert-secondary">Json Placeholder Api's
+        <br><br>
+
+        <a href="https://my-json-server.typicode.com/Saikrishnatangudu/usersjson/users">Userlist</a><br>
+    <a href="https://my-json-server.typicode.com/Saikrishnatangudu/usersjson/transactions">TransactionsList</a>
+    </div>
+   
+</div>

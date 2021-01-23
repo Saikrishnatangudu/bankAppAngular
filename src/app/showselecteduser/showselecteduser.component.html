@@ -1,0 +1,49 @@
+<div class="jumbotron">
+<div class="container">
+  <div class="row">
+    <div class="col-6">          
+
+     <div class="card" style="width: 35rem;">
+        <div class="card-body">
+          <h5 class="card-title">User: {{userda.firstname}} {{userda.lastname}}</h5>
+           <p class="card-text"><strong>AccountStatus: </strong><span [ngStyle]="{'color': userda.accstatus=='active'? 'green' : 'red'}"> {{userda.accstatus}}</span></p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"><strong>AccountNumber: </strong>{{userda.account.AccNo}}
+            <br> <strong>Accounttype: </strong>{{userda.account.AccType}}<br>
+            <strong>AccountBalance: </strong>{{userda.account.balance}}
+          </li>
+          <li class="list-group-item"> <strong>EmailId: </strong>{{userda.emailid}}<br>
+            <strong>Mobile No: </strong>{{userda.mobileno}}
+            <button class="btn btn-danger btn-sm" *ngIf="userda.accstatus=='active' " (click)="diableuser()"  >DisableUser</button>
+            <button class="btn btn-success btn-sm" *ngIf="userda.accstatus=='inactive' " (click)="enableuser()">Enableuser</button>
+
+
+
+          </li>
+
+        </ul>
+        <!-- <div class="card-body">
+            <a href="#" class="card-link" onclick='invoke()'>Card link</a>
+          </div>  -->
+        <button class="btn btn-primary btn-sm" (click)="goback()">Back</button>
+      </div>
+    </div>
+  
+    <div class="col-6"> 
+      <div class="card" style="width: 35rem;">
+        <div class="card-body">
+          <h5 class="card-title">FundTransfer</h5>
+           <p class="card-text"><strong>Ammount: </strong><input type="number" class="form-control" [(ngModel)]="ammount"></p>
+        </div>
+        
+        <!-- <div class="card-body">
+            <a href="/view" class="card-link " onclick='invoke()'>Card link</a>
+          </div>  -->
+      </div>
+      <button class="btn btn-primary btn-md" (click)="fudTransfer()">Transfer</button>
+    </div>
+  </div>
+</div>
+
+</div>

@@ -1,0 +1,535 @@
+{
+  "users": [
+    {
+      "firstname": "usera",
+      "lastname": "user",
+      "emailid": "usera@gmail.com",
+      "mobileno": "98454864646",
+      "gender": "Male",
+      "password": "usera",
+      "address": {
+        "street": "fdqwdfwd",
+        "city": "dfwefdwe",
+        "state": "fewfwef",
+        "pincode": "166145"
+      },
+      "accstatus": "active",
+      "role": "USER",
+      "id": 1,
+      "account": {
+        "AccNo": 2554,
+        "AccType": "savings",
+        "balance": 26255
+      }
+    },
+    {
+      "firstname": "sai",
+      "lastname": "krishna",
+      "emailid": "sai@gmail.com",
+      "mobileno": "4646464",
+      "gender": "Male",
+      "password": "sai",
+      "address": {
+        "street": "bmn bj",
+        "city": "jnlkkl",
+        "state": "bjknjk",
+        "pincode": "5316"
+      },
+      "accstatus": "active",
+      "role": "USER",
+      "id": 3,
+      "account": {
+        "AccNo": 2555,
+        "AccType": "savings",
+        "balance": 45000
+      }
+    },
+    {
+      "firstname": "admin",
+      "lastname": "admin",
+      "emailid": "admin@gmail.com",
+      "mobileno": "0000000000",
+      "gender": "Male",
+      "password": "admin",
+      "address": {
+        "street": "fdsfcdsf",
+        "city": "dfdsfdf",
+        "state": "dfdsf",
+        "pincode": "166666"
+      },
+      "accstatus": "active",
+      "role": "ADMIN",
+      "id": 4,
+      "account": {
+        "AccNo": 966969965,
+        "AccType": "ADMINACCOUNT",
+        "balance": 9969178
+      }
+    },
+    {
+      "firstname": "gggggg",
+      "lastname": "ggggggg",
+      "emailid": "gggggggggg",
+      "mobileno": "999999",
+      "gender": "Male",
+      "password": "aaaa",
+      "address": {
+        "street": "kjnjknd",
+        "city": "kjoljlwd",
+        "state": " kjj",
+        "pincode": "dwdw"
+      },
+      "accstatus": "active",
+      "role": "USER",
+      "id": 5,
+      "account": {
+        "AccNo": 5555,
+        "AccType": "reccuring",
+        "balance": 8720
+      }
+    },
+    {
+      "firstname": "kavya",
+      "lastname": "kintali",
+      "emailid": "kavya@gmail.com",
+      "mobileno": "5965616",
+      "gender": "Female",
+      "password": "xcxzcxzc",
+      "address": {
+        "street": "xvxczxcv",
+        "city": "czxcxzc",
+        "state": "cxzcxzc",
+        "pincode": "xczxcxz"
+      },
+      "accstatus": "active",
+      "role": "USER",
+      "id": 6,
+      "account": {
+        "AccNo": 6666,
+        "AccType": "reccuring",
+        "balance": 0
+      }
+    },
+    {
+      "firstname": "json",
+      "lastname": "json",
+      "emailid": "json@gmail.com",
+      "mobileno": "998988998",
+      "gender": "Male",
+      "password": "json",
+      "address": {
+        "street": "cascsadv",
+        "city": "vdvsdv",
+        "state": "khbi",
+        "pincode": "13223"
+      },
+      "accstatus": "active",
+      "role": "USER",
+      "id": 7,
+      "account": {
+        "AccNo": 33233,
+        "AccType": "Savings",
+        "balance": 17500
+      }
+    },
+    {
+      "firstname": "json1",
+      "lastname": "json1",
+      "emailid": "json1@gmail.com",
+      "mobileno": "998988998",
+      "gender": "Male",
+      "password": "json",
+      "address": {
+        "street": "cascsadv",
+        "city": "vdvsdv",
+        "state": "khbi",
+        "pincode": "13223"
+      },
+      "accstatus": "inactive",
+      "role": "USER",
+      "id": 22,
+      "account": {
+        "AccNo": 9696,
+        "AccType": "reccuring",
+        "balance": 13525
+      }
+    },
+    {
+      "firstname": "json2",
+      "lastname": "json2",
+      "emailid": "json2@gmail.com",
+      "mobileno": "998988998",
+      "gender": "Male",
+      "password": "json",
+      "address": {
+        "street": "cascsadv",
+        "city": "vdvsdv",
+        "state": "khbi",
+        "pincode": "13223"
+      },
+      "accstatus": "active",
+      "role": "USER",
+      "id": 23
+    },
+    {
+      "firstname": "json4",
+      "lastname": "json2",
+      "emailid": "json4@gmail.com",
+      "mobileno": "998988998",
+      "gender": "Male",
+      "password": "json",
+      "address": {
+        "street": "cascsadv",
+        "city": "vdvsdv",
+        "state": "khbi",
+        "pincode": "13223"
+      },
+      "accstatus": "inactive",
+      "role": "USER",
+      "id": 225
+    },
+    {
+      "firstname": "fasdfsdasd",
+      "lastname": "fdsafsaf",
+      "emailid": "saikrishnatangudu52@gmail.com",
+      "mobileno": "(949) 003-7089",
+      "gender": "Male",
+      "password": "1234",
+      "address": {
+        "street": "sfsdfdsf",
+        "city": "srikakulam",
+        "state": "England",
+        "pincode": "531555"
+      },
+      "accstatus": "inactive",
+      "role": "USER",
+      "id": 226
+    },
+    {
+      "firstname": "sreekanth",
+      "lastname": "koduru",
+      "emailid": "sree@gmail.com",
+      "mobileno": "99898988",
+      "gender": "Male",
+      "password": "sree",
+      "address": {
+        "street": "fdsfcdsf",
+        "city": "dfdsfdf",
+        "state": "dfdsf",
+        "pincode": "236222"
+      },
+      "accstatus": "inactive",
+      "role": "USER",
+      "id": 227,
+      "account": {
+        "AccNo": 1111,
+        "AccType": "current",
+        "balance": 8822
+      }
+    },
+    {
+      "firstname": "raju",
+      "lastname": "raju",
+      "emailid": "raju@gmail.com",
+      "mobileno": "655959559",
+      "gender": "Male",
+      "password": "raju",
+      "address": {
+        "street": "kadapa",
+        "city": "kadapa",
+        "state": "ap",
+        "pincode": "65656"
+      },
+      "accstatus": "active",
+      "role": "USER",
+      "id": 228,
+      "account": {
+        "AccNo": 211211,
+        "AccType": "current",
+        "balance": 4500
+      }
+    }
+  ],
+  "transactions": [
+    {
+      "fromAccNo": 2553,
+      "toAccNo": 2554,
+      "transactionAmmount": 5000,
+      "transactionDate": "2021-01-20T06:38:20.457Z",
+      "transactionRemarks": "sucessfull",
+      "BalanceOnDate": 44500,
+      "transactionId": 2,
+      "id": 2
+    },
+    {
+      "fromAccNo": 2553,
+      "toAccNo": 2555,
+      "transactionAmmount": 500,
+      "transactionDate": "2021-01-15T08:00:37.662Z",
+      "transactionRemarks": "sucessfull",
+      "BalanceOnDate": 44000,
+      "transactionId": 3,
+      "id": 3
+    },
+    {
+      "fromAccNo": 2554,
+      "toAccNo": 2553,
+      "transactionAmmount": 5555,
+      "transactionDate": "2021-01-05T06:38:20.457Z",
+      "transactionRemarks": "sucessfull",
+      "BalanceOnDate": 44500,
+      "transactionId": 220,
+      "id": 20
+    },
+    {
+      "fromAccNo": 2554,
+      "toAccNo": 2553,
+      "transactionAmmount": 2000,
+      "transactionDate": "2021-01-07T06:38:20.457Z",
+      "transactionRemarks": "sucessfull",
+      "BalanceOnDate": 44500,
+      "transactionId": 221,
+      "id": 21
+    },
+    {
+      "fromAccNo": 2554,
+      "toAccNo": 2553,
+      "transactionAmmount": 9000,
+      "transactionDate": "2021-01-07T06:38:20.457Z",
+      "transactionRemarks": "sucessfull",
+      "BalanceOnDate": 44500,
+      "transactionId": 223,
+      "id": 22
+    },
+    {
+      "fromAccNo": 2554,
+      "toAccNo": 2553,
+      "transactionAmmount": 9099,
+      "transactionDate": "2021-01-07T06:38:20.457Z",
+      "transactionRemarks": "sucessfull",
+      "BalanceOnDate": 44500,
+      "transactionId": 224,
+      "id": 24
+    },
+    {
+      "fromAccNo": 2555,
+      "toAccNo": 2553,
+      "transactionAmmount": 555,
+      "transactionDate": "2021-01-07T06:38:20.457Z",
+      "transactionRemarks": "sucessfull",
+      "BalanceOnDate": 44500,
+      "transactionId": 229,
+      "id": 29
+    },
+    {
+      "fromAccNo": 2555,
+      "toAccNo": 2553,
+      "transactionAmmount": 8888,
+      "transactionDate": "2021-01-07T06:38:20.457Z",
+      "transactionRemarks": "sucessfull",
+      "BalanceOnDate": 44500,
+      "transactionId": 266,
+      "id": 223
+    },
+    {
+      "fromAccNo": 2555,
+      "toAccNo": 2554,
+      "transactionAmmount": 5555,
+      "transactionDate": "2021-01-22T10:17:47.797Z",
+      "transactionRemarks": "sucessfull",
+      "BalanceOnDate": 44445,
+      "transactionId": 9,
+      "id": 224
+    },
+    {
+      "fromAccNo": 2554,
+      "toAccNo": 2555,
+      "transactionAmmount": 500,
+      "transactionDate": "2021-01-22T10:30:31.885Z",
+      "transactionRemarks": "sucessfull",
+      "BalanceOnDate": 43000,
+      "transactionId": 10,
+      "id": 225
+    },
+    {
+      "fromAccNo": 2554,
+      "toAccNo": 2555,
+      "transactionAmmount": 500,
+      "transactionDate": "2021-01-22T10:40:15.898Z",
+      "transactionRemarks": "sucessfull",
+      "BalanceOnDate": 42500,
+      "transactionId": 11,
+      "id": 226
+    },
+    {
+      "fromAccNo": 2555,
+      "toAccNo": 1111,
+      "transactionAmmount": 6000,
+      "transactionDate": "2021-01-22T10:50:30.035Z",
+      "transactionRemarks": "sucessfull",
+      "BalanceOnDate": 45000,
+      "transactionId": 12,
+      "id": 227
+    },
+    {
+      "fromAccNo": 966969965,
+      "toAccNo": 33233,
+      "transactionAmmount": 5000,
+      "transactionDate": "2021-01-23T02:07:20.393Z",
+      "transactionRemarks": "sucessfull",
+      "BalanceOnDate": 9995000,
+      "transactionId": 13,
+      "id": 228
+    },
+    {
+      "fromAccNo": 966969965,
+      "toAccNo": 33233,
+      "transactionAmmount": 5000,
+      "transactionDate": "2021-01-23T02:14:22.441Z",
+      "transactionRemarks": "sucessfull",
+      "BalanceOnDate": 9990000,
+      "transactionId": 14,
+      "id": 229
+    },
+    {
+      "fromAccNo": 966969965,
+      "toAccNo": 9696,
+      "transactionAmmount": 3000,
+      "transactionDate": "2021-01-23T02:16:24.818Z",
+      "transactionRemarks": "sucessfull",
+      "BalanceOnDate": 9987000,
+      "transactionId": 15,
+      "id": 230
+    },
+    {
+      "fromAccNo": 966969965,
+      "toAccNo": 9696,
+      "transactionAmmount": 5000,
+      "transactionDate": "2021-01-23T02:21:00.066Z",
+      "transactionRemarks": "sucessfull",
+      "BalanceOnDate": 9982000,
+      "transactionId": 16,
+      "id": 231
+    },
+    {
+      "fromAccNo": 966969965,
+      "toAccNo": 1111,
+      "transactionAmmount": 2322,
+      "transactionDate": "2021-01-23T02:32:32.964Z",
+      "transactionRemarks": "sucessfull",
+      "BalanceOnDate": 9979678,
+      "transactionId": 17,
+      "id": 232
+    },
+    {
+      "fromAccNo": 966969965,
+      "toAccNo": 5555,
+      "transactionAmmount": 5000,
+      "transactionDate": "2021-01-23T02:42:42.775Z",
+      "transactionRemarks": "sucessfull",
+      "BalanceOnDate": 9974678,
+      "transactionId": 18,
+      "id": 233
+    },
+    {
+      "fromAccNo": 966969965,
+      "toAccNo": 2554,
+      "transactionAmmount": 500,
+      "transactionDate": "2021-01-23T02:51:20.654Z",
+      "transactionRemarks": "sucessfull",
+      "BalanceOnDate": 9974178,
+      "transactionId": 19,
+      "id": 234
+    },
+    {
+      "fromAccNo": 2554,
+      "toAccNo": 9696,
+      "transactionAmmount": 3000,
+      "transactionDate": "2021-01-23T06:43:10.453Z",
+      "transactionRemarks": "sucessfull",
+      "BalanceOnDate": 40000,
+      "transactionId": 20,
+      "id": 235
+    },
+    {
+      "fromAccNo": 2554,
+      "toAccNo": 9696,
+      "transactionAmmount": 2525,
+      "transactionDate": "2021-01-23T06:45:07.834Z",
+      "transactionRemarks": "sucessfull",
+      "BalanceOnDate": 37475,
+      "transactionId": 21,
+      "id": 236
+    },
+    {
+      "fromAccNo": 2554,
+      "toAccNo": 33233,
+      "transactionAmmount": 2000,
+      "transactionDate": "2021-01-23T06:58:15.183Z",
+      "transactionRemarks": "sucessfull",
+      "BalanceOnDate": 35475,
+      "transactionId": 22,
+      "id": 237
+    },
+    {
+      "fromAccNo": 2554,
+      "toAccNo": 33233,
+      "transactionAmmount": 5000,
+      "transactionDate": "2021-01-23T06:59:28.062Z",
+      "transactionRemarks": "sucessfull",
+      "BalanceOnDate": 30475,
+      "transactionId": 23,
+      "id": 238
+    },
+    {
+      "fromAccNo": 2554,
+      "toAccNo": 33233,
+      "transactionAmmount": 500,
+      "transactionDate": "2021-01-23T07:00:03.588Z",
+      "transactionRemarks": "sucessfull",
+      "BalanceOnDate": 29975,
+      "transactionId": 24,
+      "id": 239
+    },
+    {
+      "fromAccNo": 2554,
+      "toAccNo": 5555,
+      "transactionAmmount": 3666,
+      "transactionDate": "2021-01-23T07:04:06.002Z",
+      "transactionRemarks": "sucessfull",
+      "BalanceOnDate": 26309,
+      "transactionId": 25,
+      "id": 240
+    },
+    {
+      "fromAccNo": 2554,
+      "toAccNo": 5555,
+      "transactionAmmount": 54,
+      "transactionDate": "2021-01-23T07:24:37.026Z",
+      "transactionRemarks": "sucessfull",
+      "BalanceOnDate": 26255,
+      "transactionId": 26,
+      "id": 241
+    },
+    {
+      "fromAccNo": 966969965,
+      "toAccNo": 211211,
+      "transactionAmmount": 5000,
+      "transactionDate": "2021-01-23T08:49:15.859Z",
+      "transactionRemarks": "sucessfull",
+      "BalanceOnDate": 9969178,
+      "transactionId": 27,
+      "id": 242
+    },
+    {
+      "fromAccNo": 211211,
+      "toAccNo": 1111,
+      "transactionAmmount": 500,
+      "transactionDate": "2021-01-23T08:53:34.315Z",
+      "transactionRemarks": "sucessfull",
+      "BalanceOnDate": 4500,
+      "transactionId": 28,
+      "id": 243
+    }
+  ]
+}
